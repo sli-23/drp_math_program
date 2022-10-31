@@ -47,9 +47,27 @@ That is, the entry in $$i$$th row and $$j$$th column is the transition probabili
 
 * A **transition matrix** $$P$$​ for Markov chain at time $$t$$ is a matrix containing information on the probability of transitioning between **states**.
 
+All possible states at time $$t-1$$, we have:
+
+$$
+p_i(t) = \sum_{j \geq 0} p_j (t-1)P_{i,j}
+$$
+
+or
+
+$$
+\overline{p}(t) = \overline{p}(t-1)P.
+$$
+
+1111
+
+<figure><img src="../.gitbook/assets/IMG_F8E55F836236-1 (1).jpeg" alt=""><figcaption><p>From the book <em>Probability and Computing</em> by Michael Mitzenmacher and Eli Upfal, Page 170</p></figcaption></figure>
+
+
+
 
 
 ### References
 
 1. [Markov Chain by Brilliant Math](https://brilliant.org/wiki/markov-chains/)
-2.
+2. Probability and Computing by Michael Mitzenmacher and Eli Upfal
