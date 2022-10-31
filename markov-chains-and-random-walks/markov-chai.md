@@ -59,20 +59,36 @@ $$
 \overline{p}(t) = \overline{p}(t-1)P.
 $$
 
-1111
+**Example**:
 
 <figure><img src="../.gitbook/assets/IMG_F8E55F836236-1 (1).jpeg" alt=""><figcaption><p>From the book <em>Probability and Computing</em> by Michael Mitzenmacher and Eli Upfal, Page 170</p></figcaption></figure>
 
-111
+For any $$m \geq 0$$, we define m-step transition probability
+
+$$
+p^m_{i,j} = P(X_{x + m} = j | X_t = i)
+$$
+
+as the probability that the chain moves from state $$i$$ **** to state $$j$$ in exactly $$m$$ steps.
+
+Conditioning on the first transition from $$i$$, we have:
+
+$$
+P^m_{i,j} = \sum_{k \geq 0} p_{i,k} P^{m - 1}_{k,j}.
+$$
 
 1111
 
+
+
 {% tabs %}
 {% tab title="Example #1" %}
+For the time-independent Markov chain described by the picture below, what is its 2-step transition matrix?
 
+<img src="../.gitbook/assets/image.png" alt="" data-size="original">
 {% endtab %}
 
-{% tab title="Example #2" %}
+{% tab title="Solution #1" %}
 
 {% endtab %}
 {% endtabs %}
