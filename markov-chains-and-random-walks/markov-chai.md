@@ -81,7 +81,7 @@ $$
 {% tab title="Example #1" %}
 For the time-independent Markov chain described by the picture below, what is its 2-step transition matrix?
 
-<img src="../.gitbook/assets/image.png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
 {% endtab %}
 
 {% tab title="Example #2" %}
@@ -127,6 +127,10 @@ for i in range(100):
 
 ### Applications
 
+#### Examples in real life
+
+11111
+
 #### 2-SAT Algorithm
 
 1111
@@ -137,11 +141,16 @@ for i in range(100):
 
 ### Classification of States
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://math.stackexchange.com/questions/3873941/what-is-the-smallest-digraph-whose-reflexive-symmetric-transitive-closures-in">References</a></p></figcaption></figure>
+
+State $$j$$ is accessible from state $$i$$ if, for some integer $$n \geq 0, p^m_{i,j} > 0$$. If two states i and j are accessible from each other, we say that they communicate and we write $$i \leftrightarrow j.$$
 
 
 
+1111
 
 ### References
 
 1. [Markov Chain by Brilliant Math](https://brilliant.org/wiki/markov-chains/)
 2. Probability and Computing by Michael Mitzenmacher and Eli Upfal
+3. [Markov Chain: The foundation of ML and AI (Chinese)](https://www.toutiao.com/article/6669798537494004227/?wid=1667251655340)
