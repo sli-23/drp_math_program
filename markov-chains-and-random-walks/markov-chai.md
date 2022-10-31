@@ -63,9 +63,21 @@ $$
 
 <figure><img src="../.gitbook/assets/IMG_F8E55F836236-1 (1).jpeg" alt=""><figcaption><p>From the book <em>Probability and Computing</em> by Michael Mitzenmacher and Eli Upfal, Page 170</p></figcaption></figure>
 
+111
 
+1111
 
+{% tabs %}
+{% tab title="Example #1" %}
 
+{% endtab %}
+
+{% tab title="Example #2" %}
+
+{% endtab %}
+{% endtabs %}
+
+111
 
 ### References
 
