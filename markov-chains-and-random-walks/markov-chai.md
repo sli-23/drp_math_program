@@ -1,12 +1,10 @@
-# Markov Chai
+# Markov Chain
 
 ### Definitions
 
 * A **Markov chain** is a mathematical system that experiences transitions from one state to another according to certain [probabilistic](https://brilliant.org/wiki/probability-rule-of-product/) rules.
 * It is one of the common _**stochastic process** _ (the process of some values changing randomly over time)_._
 * The probability of any state transition is independent of time.
-
-
 
 A _stochastic process_ $$X = { X(t): t \in T}$$  is a collection of random variables:
 

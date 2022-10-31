@@ -4,7 +4,7 @@
 
 ## Markov Chains & Random Walks
 
-* [Markov Chain](markov-chains-and-random-walks/markov-chain.md)
+* [Markov Chain](markov-chains-and-random-walks/markov-chai.md)
 
 ## Group 2
 
