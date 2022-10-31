@@ -1,6 +1,6 @@
 # Markov Chain
 
-### Definitions
+### Definitions of Markov Chain
 
 * A **Markov chain** is a mathematical system that experiences transitions from one state to another according to certain [probabilistic](https://brilliant.org/wiki/probability-rule-of-product/) rules.
 * It is one of the common _**stochastic process** _ (the process of some values changing randomly over time)_._
@@ -11,7 +11,7 @@ A _stochastic process_ $$X = { X(t): t \in T}$$  is a collection of random varia
 * The index of $$t$$ often represents time, and in that case the process $$X$$models the value of a random variables $$X$$that changes over time.
 * We call $$X(t)$$ the _state_ of process at time $$t$$. We use $$X_t$$ interchangeably with $$X_t$$.
 
-#### **Markov property**
+### **Markov property**
 
 A discrete time stochastic process $$X_0, X_1, X_2, ...$$ is a Markov chain if
 
