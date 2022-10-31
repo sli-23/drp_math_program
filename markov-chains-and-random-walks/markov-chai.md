@@ -77,10 +77,6 @@ $$
 P^m_{i,j} = \sum_{k \geq 0} p_{i,k} P^{m - 1}_{k,j}.
 $$
 
-1111
-
-
-
 {% tabs %}
 {% tab title="Example #1" %}
 For the time-independent Markov chain described by the picture below, what is its 2-step transition matrix?
@@ -88,12 +84,46 @@ For the time-independent Markov chain described by the picture below, what is it
 <img src="../.gitbook/assets/image.png" alt="" data-size="original">
 {% endtab %}
 
+{% tab title="Example #2" %}
+Starting from the mainland, what is the probability (in percentage) that the travelers will be on the mainland at the end of a 3-day trip?
+
+![](<../.gitbook/assets/image (1).png>)
+{% endtab %}
+
 {% tab title="Solution #1" %}
+State the transition matrix:
+
+$$
+P = \begin{pmatrix}0.3&0.7\\0.9&0.1\end{pmatrix}
+$$
+
+It follows that the 2-step transition matrix is:
+
+$$
+P^2 = \begin{pmatrix}0.3&0.7\\0.9&0.1\end{pmatrix} \cdot \begin{pmatrix}0.3&0.7\\0.9&0.1\end{pmatrix} = \begin{pmatrix}0.72&0.28\\0.36&0.63\end{pmatrix}
+$$
+{% endtab %}
+
+{% tab title="Solution #2" %}
 
 {% endtab %}
 {% endtabs %}
 
+### Applications
+
+#### 2-SAT Algorithm
+
+1111
+
+#### 3-SAT Algorithm
+
 111
+
+### Classification of States
+
+
+
+
 
 ### References
 
