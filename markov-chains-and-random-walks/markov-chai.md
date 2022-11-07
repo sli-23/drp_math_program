@@ -154,7 +154,15 @@ If state $$i$$ is transient then, starting at $$i$$, the chain will return to $$
 > 1. at least one state is recurrent; and
 > 2. all recurrent states are positive recurrent.
 
+#### The Gambler's Ruin Example
 
+A gambler starts with $$i$$ dollars; each time, she bets $1 in a fair game, until she either has 0 or n dollars. What is the probability $$a_i$$ that she ends up with having $$n$$ dollars?
+
+
+
+
+
+#### Stationary Distributions
 
 
 
@@ -163,3 +171,5 @@ If state $$i$$ is transient then, starting at $$i$$, the chain will return to $$
 1. [Markov Chain by Brilliant Math](https://brilliant.org/wiki/markov-chains/)
 2. Probability and Computing by Michael Mitzenmacher and Eli Upfal
 3. [Markov Chain: The foundation of ML and AI (Chinese)](https://www.toutiao.com/article/6669798537494004227/?wid=1667251655340)
+4. [The Gambler's Ruin Problem](https://towardsdatascience.com/the-gamblers-ruin-problem-9c97a7747171)
+5.
