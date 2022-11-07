@@ -123,8 +123,6 @@ for i in range(100):
     print(vector1)
 ```
 
-11111
-
 ### Applications
 
 #### Examples in real life
@@ -149,12 +147,14 @@ State $$j$$ is accessible from state $$i$$ if, for some integer $$n \geq 0, p^m_
 
 > A _state is **recurrent** if_ $$\sum_{t  \geq 1} r^t_{i,i} = 1$$, and it is _**transient**_ if $$\sum_{t \geq 1}r^t_{i,i} < 1$$. A _Markov chain_ is _recurrent_ if _every state_ in the chain is recurrent.&#x20;
 
-If state $$i$$ is transient then, starting at $$i$$, the chain will return to $$i$$ with some fixed probability p
+If state $$i$$ is transient then, starting at $$i$$, the chain will return to $$i$$ with some fixed probability $$p = \sum_{t \geq 1} r^t_{i,i}$$. In this case, the number of times the chain visits $$i$$ when starting at i is given by a geometric random variable.&#x20;
 
 > **In a finite Markov chain:**
 >
 > 1. at least one state is recurrent; and
 > 2. all recurrent states are positive recurrent.
+
+
 
 
 
