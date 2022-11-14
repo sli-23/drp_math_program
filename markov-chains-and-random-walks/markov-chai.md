@@ -123,20 +123,6 @@ for i in range(100):
     print(vector1)
 ```
 
-### Applications
-
-#### Examples in real life
-
-11111
-
-#### 2-SAT Algorithm
-
-1111
-
-#### 3-SAT Algorithm
-
-111
-
 ### Classification of States
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://math.stackexchange.com/questions/3873941/what-is-the-smallest-digraph-whose-reflexive-symmetric-transitive-closures-in">References</a></p></figcaption></figure>
@@ -149,6 +135,9 @@ State $$j$$ is accessible from state $$i$$ if, for some integer $$n \geq 0, p^m_
 
 If state $$i$$ is transient then, starting at $$i$$, the chain will return to $$i$$ with some fixed probability $$p = \sum_{t \geq 1} r^t_{i,i}$$. In this case, the number of times the chain visits $$i$$ when starting at i is given by a geometric random variable.&#x20;
 
+* State i is recurrent if "starting from i, and from wherever you can go, there is a way of returning to i"
+* If not recurrent, called transient.
+
 > **In a finite Markov chain:**
 >
 > 1. at least one state is recurrent; and
@@ -156,7 +145,9 @@ If state $$i$$ is transient then, starting at $$i$$, the chain will return to $$
 
 #### The Gambler's Ruin Example
 
-A gambler starts with $$i$$ dollars; each time, she bets $1 in a fair game, until she either has 0 or n dollars. What is the probability $$a_i$$ that she ends up with having $$n$$ dollars?
+A gambler starts with $$i$$ dollars; each time, she bets $$1$$ in a fair game, until she either has 0 or n dollars. What is the probability $$a_i$$ that she ends up with having $$n$$ dollars?
+
+
 
 
 
